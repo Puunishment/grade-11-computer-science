@@ -115,14 +115,13 @@ while choice9 not in ["1", "2"]:
     choice9 = input("[1] Investigate a strange noise or [2] Approach a mirror ")
 if choice9 == "1":
     print("A trapdoor opens beneath you! You fall to your death.")
+player_alive =False
     exit()
 elif choice9 == "2":
     print("The mirror shows your reflection, but it starts moving differently...")
-    print("Suddenly, the mirror shatters! You found a hidden passage leading outside. You escape the hotel!")
-    print("CONGRATULATIONS, YOU WON!")
-    exit()
+    print("Suddenly, the mirror shatters! You found a hidden passage leading outside. You Room 6!!")
 
-# Another possible ending after Room 6
+# Room 7
 print("You entered room 7, it's dark, and there's a strange smell.")
 choice10 = ""
 while choice10 not in ["1", "2"]:
