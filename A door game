@@ -1,4 +1,3 @@
-total_rooms = 10
 inventory = {"flashlight": False, "crucifix": False, "vitamin": False, "key1": False}
 # Starting
 print("When you woke up, you saw yourself in a hotel. In front of you, there is a door with a number of...")
